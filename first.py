@@ -12,6 +12,6 @@ def load_phishing_data():
     return X, y
 
 if __name__ == "__main__":
-    X, y = load_phushing_data()
+    X, y = load_phishing_data()
     print("shape of X:", X.shape)
     print("Target shape:", y.shape)
